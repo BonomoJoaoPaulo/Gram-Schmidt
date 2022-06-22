@@ -43,3 +43,12 @@ print("Base Ortogonal: ", ortogonal_base)
 
 ortogonal_ip = internal_product(ortogonal_base[0], ortogonal_base[1])
 print("Produto Interno da Base Ortogonal: ", ortogonal_ip)
+
+"""
+-----------------------------------------------------------------------------------------
+OBS: - Os produtos internos estarao com valores incorretos por conta do arredondamento;
+    - Eh necessario implementar o uso de fracoes;
+    - Resolver warning da linha 19;
+    - Testar com conjuntos de vetores de dimensoes != 2;
+    - Implementar a Normalizacao.
+"""
